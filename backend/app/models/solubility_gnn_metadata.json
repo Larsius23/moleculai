@@ -1,0 +1,13 @@
+{
+  "model": "SolubilityGNN",
+  "task": "Aqueous solubility prediction (LogS)",
+  "dataset": "ESOL (Delaney)",
+  "n_tain": 901,
+  "n_valid": 113,
+  "n_test": 113,
+  "in_channels": 7,
+  "hidden_channels": 64,
+  "test_rmse": 0.9469,
+  "units": "log(mol/L)",
+  "notes": "Lower LogS = less soluble. Drug-like range: -6 to 0"
+}
